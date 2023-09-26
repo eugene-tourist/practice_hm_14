@@ -1,0 +1,240 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 16px;
+    /* по умолчанию */
+}
+
+body {
+    line-height: 1;
+    /* background-color: grey; */
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* ------------------------------ */
+
+
+.our-promise {
+    background-color: #F5F5F5;
+}
+
+.our-promise__container {}
+
+._container {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.our-promise__content {
+    padding: 100px 0px 250px 0;
+}
+
+.our-promise__subtitle {
+    color: #5D62B5;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    background: url(../img/promise/icon.svg) 0 -2px no-repeat;
+    padding-left: 34px;
+    margin-bottom: 33px;
+}
+
+.our-promise__title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.16;
+    margin-bottom: 68px;
+}
+
+.cards {
+    display: flex;
+    margin: 0 -12px;
+}
+
+.cards__item {
+    flex: 0 1 33.333%;
+    padding: 0 12px;
+}
+
+.item {
+    display: flex;
+}
+
+.item__image {
+    margin-right: 23px;
+}
+
+.item__body {}
+
+.item__title {
+    color: #F2726F;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.36;
+    margin-bottom: 20px;
+}
+
+.item__text {
+    color: #4B4B4B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+}
+
+
+.our-impact {
+    background: url(../img/impact/blob.svg) 650px 0 no-repeat, #29C3BE;
+}
+
+.our-impact__container {}
+
+.our-impact__content {
+    padding: 112px 0 212px 0;
+}
+
+.our-impact__info {
+    display: flex;
+    position: relative;
+    margin-bottom: 75px;
+}
+
+.our-impact__body {
+    margin-right: 82px;
+}
+
+.body {}
+
+.body__subtitle {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+
+    background: url(../img/impact/icon.svg) 0 -2px no-repeat;
+    padding-left: 34px;
+    margin-bottom: 32px;
+}
+
+.body__title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.16;
+    max-width: 411px;
+}
+
+.our-impact__image {
+    position: absolute;
+    top: -200px;
+    left: 500px;
+}
+
+.our-impact__image img {
+    border-radius: 30px;
+}
+
+
+.our-impact__elements {
+    display: flex;
+}
+
+.elements__element {
+    display: flex;
+}
+
+.element {
+    flex: 0 1 25%;
+}
+
+.element__image {
+    margin-right: 11px;
+}
+
+.element__content {}
+
+.element__title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.16;
+    margin-bottom: 3px;
+}
+
+.element__text {
+    color: #5D62B5;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+}
